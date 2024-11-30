@@ -14,10 +14,10 @@ chrome_options.add_argument("--no-sandbox")  # For Linux compatibility
 chrome_options.add_argument("--disable-gpu")  # Disable GPU for compatibility
 
 # Update the path to the Chrome binary on your Desktop
-chrome_options.binary_location = "/Users/jakub/Desktop/Google Chrome.app/Contents/MacOS/Google Chrome"
+chrome_options.binary_location = "Your path to Google Chrome"
 
 # Specify the location of chromedriver (if not in PATH)
-service = Service("/usr/local/bin/chromedriver")
+service = Service("Your path to chromedriver")
 
 # Initialize the webdriver
 driver = webdriver.Chrome(service=service, options=chrome_options)
