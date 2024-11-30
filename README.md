@@ -38,15 +38,19 @@ This project is designed to automatically generate videos using Stable Diffusion
 
 ### Generate Video with Stable Diffusion
 
-1. Run the `auto_video_creator.py` script:   ```bash
-   python auto_video_creator.py   ```
+1. Run the `auto_video_creator.py` script:
+   ```bash
+   python auto_video_creator.py
+   ```
 
 2. The script will generate frames based on the specified prompt and compile them into a video.
 
 ### Capture CSS Animation
 
-1. Run the `test_selenium.py` script:   ```bash
-   python test_selenium.py   ```
+1. Run the `test_selenium.py` script:
+   ```bash
+   python test_selenium.py
+   ```
 
 2. The script will capture frames of a CSS animation and save them in the `frames` directory.
 
