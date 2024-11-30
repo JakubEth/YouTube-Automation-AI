@@ -19,12 +19,16 @@ This project is designed to automatically generate videos using Stable Diffusion
 
 ## Installation
 
-1. Clone the repository:   ```bash
-   git clone <repository-url>
-   cd <repository-directory>   ```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JakubEth/YouTube-Automation-AI
+   cd YouTube-Automation-AI
+   ```
 
-2. Install the required Python packages:   ```bash
-   pip install -r requirements.txt   ```
+2. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Ensure FFmpeg is installed and available in your system's PATH.
 
